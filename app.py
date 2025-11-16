@@ -7,7 +7,7 @@ import urllib.request
 import urllib.parse
 
 # Your Courier API Key - Get from https://app.courier.com/settings/api-keys
-COURIER_AUTH_TOKEN = "pk_prod_074K31XGKHM2RGQ2GF5AJBN7VG8S"  # Replace with your actual key
+COURIER_AUTH_TOKEN = "pk_prod_DQQ3R52PR44ZESGC7TCA1H8FRB0Q"  # Replace with your actual key
 PORT = int(os.environ.get('PORT', 8000))
 
 class CourierHandler(http.server.SimpleHTTPRequestHandler):
